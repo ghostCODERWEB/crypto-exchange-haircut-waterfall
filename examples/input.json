@@ -1,0 +1,21 @@
+{
+  "assets": [
+    {
+      "id": "cash",
+      "value": 100,
+      "haircut_bps": 2000
+    }
+  ],
+  "claims": [
+    {
+      "id": "senior",
+      "rank": 0,
+      "amount": 50
+    },
+    {
+      "id": "junior",
+      "rank": 1,
+      "amount": 50
+    }
+  ]
+}

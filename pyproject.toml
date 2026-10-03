@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crypto-exchange-haircut-waterfall"
+version = "0.1.0"
+description = "Apply asset valuation haircuts and allocate recoverable estate by creditor seniority with exact unit reconciliation."
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+crypto-exchange-haircut-waterfall = "cryptolab:main"
+
+[tool.setuptools.packages.find]
+include = ["cryptolab*"]
+
+[tool.setuptools.package-data]
+cryptolab = ["web/*"]

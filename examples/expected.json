@@ -1,0 +1,27 @@
+{
+  "assets": [
+    {
+      "gross": 100,
+      "id": "cash",
+      "recoverable": 80
+    }
+  ],
+  "claims": [
+    {
+      "claim": 50,
+      "id": "senior",
+      "loss": 0,
+      "recovery": 50
+    },
+    {
+      "claim": 50,
+      "id": "junior",
+      "loss": 20,
+      "recovery": 30
+    }
+  ],
+  "distributed": 80,
+  "estate": 80,
+  "surplus": 0,
+  "total_loss": 20
+}
